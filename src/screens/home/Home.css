@@ -1,0 +1,40 @@
+.head{
+    background-color:#ff9999;
+    color:rgb(0,0,0);
+    text-align: center;
+    padding: 8px;
+    font-size:1rem;
+}
+
+.grid_scroll{
+    display:flex;
+    overflow-x: auto;
+    width: 100%;
+}
+
+.tiles_scroll{
+    margin:1px;
+}
+
+.container{
+    display: flex;
+}
+
+.col1{
+    flex:76%;
+    margin: 16px;
+}
+
+.col2{
+    flex:24%;
+    margin: 16px;
+}
+
+.tiles{
+    margin: 24px;
+    cursor: pointer;
+}
+
+.form{
+    display: grid;
+}
