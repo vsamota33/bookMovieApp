@@ -247,7 +247,7 @@ export default function Header(props) {
                   onChange={inputUserNameHandler}
                 />
                 <FormHelperText className={requsername}>
-                  <span className="red">Required</span>
+                  <span className="red">required</span>
                 </FormHelperText>
               </FormControl>
               <br />
@@ -261,7 +261,7 @@ export default function Header(props) {
                   onChange={inputPasswordHandler}
                 />
                 <FormHelperText className={reqpassword}>
-                  <span className="red">Required</span>
+                  <span className="red">required</span>
                 </FormHelperText>
               </FormControl>
               <br />
@@ -290,7 +290,7 @@ export default function Header(props) {
                 />
               </FormControl>
               <FormHelperText className={reqfirstname}>
-                <span className="red">Required</span>
+                <span className="red">required</span>
               </FormHelperText>
               <br />
               <br />
@@ -304,7 +304,7 @@ export default function Header(props) {
                   onChange={inputChangedHandler}
                 />
                 <FormHelperText className={reqlastname}>
-                  <span className="red">Required</span>
+                  <span className="red">required</span>
                 </FormHelperText>
               </FormControl>
               <br />
@@ -319,7 +319,7 @@ export default function Header(props) {
                   onChange={inputChangedHandler}
                 />
                 <FormHelperText className={reqemail}>
-                  <span className="red">Required</span>
+                  <span className="red">required</span>
                 </FormHelperText>
               </FormControl>
               <br />
@@ -334,7 +334,7 @@ export default function Header(props) {
                   onChange={inputChangedHandler}
                 />
                 <FormHelperText className={reqpass}>
-                  <span className="red">Required</span>
+                  <span className="red">required</span>
                 </FormHelperText>
               </FormControl>
               <br />
@@ -349,7 +349,7 @@ export default function Header(props) {
                   onChange={inputChangedHandler}
                 />
                 <FormHelperText className={reqmobile}>
-                  <span className="red">Required</span>
+                  <span className="red">required</span>
                 </FormHelperText>
               </FormControl>
               <br />
