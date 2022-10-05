@@ -33,7 +33,7 @@ const styles = (theme) => ({
   },
 });
 
-function Home(props) {
+const Home = (props) => {
   const [genres, set_genres] = useState([]);
   const [genre_list, set_genre_List] = useState([]);
   const [artists, set_artists] = useState([]);

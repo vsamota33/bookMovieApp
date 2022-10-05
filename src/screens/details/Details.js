@@ -131,7 +131,7 @@ export default function Details(props) {
           <Typography style={{ margin: "16px 0" }}>
             <b>Artists:</b>
           </Typography>
-          <ImageList cellWidth={100} cols={2}>
+          <ImageList sx={{width:100}} cols={2}>
             {movie_detail.artists.map((artist) => (
               <ImageListItem key={artist.id}>
                 <img src={artist.profile_url} />
